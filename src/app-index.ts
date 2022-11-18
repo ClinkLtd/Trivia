@@ -4,11 +4,13 @@ import 'components/header';
 import 'styles/global.css';
 import { Router } from '@vaadin/router';
 import { routes } from './routes';
+import { styles as sharedStyles } from 'styles/shared-styles'
 
 @customElement('app-index')
 export class AppIndex extends LitElement {
-  static get styles() {
-    return css`
+  static styles = [
+    sharedStyles,
+    css`
       main {
         padding-left: 16px;
         padding-right: 16px;
@@ -46,8 +48,8 @@ export class AppIndex extends LitElement {
           opacity: 1;
         }
       }
-    `;
-  }
+    `,
+  ]
 
   constructor() {
     super();
@@ -64,11 +66,9 @@ export class AppIndex extends LitElement {
 
   render() {
     return html`
-      <div>
         <main>
           <div id="routerOutlet"></div>
         </main>
-      </div>
     `;
   }
 }

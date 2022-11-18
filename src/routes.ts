@@ -1,4 +1,4 @@
-import 'pages/app-home';
+import 'pages/setup';
 
 export const routes = [
   // temporarily cast to any because of a Type bug with the router
@@ -6,7 +6,7 @@ export const routes = [
     path: (import.meta as any).env.BASE_URL,
     animate: true,
     children: [
-      { path: '', component: 'app-home' },
+      { path: '', component: 'app-setup' },
       {
         path: 'about',
         component: 'app-about',
