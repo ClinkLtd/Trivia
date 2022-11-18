@@ -979,14 +979,14 @@ var no=Object.defineProperty,io=Object.defineProperties;var so=Object.getOwnProp
  */var vi=Object.defineProperty,bi=Object.getOwnPropertyDescriptor,gi=(e,t,r,o)=>{for(var n=o>1?void 0:o?bi(t,r):t,i=e.length-1,s;i>=0;i--)(s=e[i])&&(n=(o?s(t,r,n):s(n))||n);return o&&n&&vi(t,r,n),n};let xt=class extends L{constructor(){super()}render(){return yt`
     <div class='container'>
       <div class='logo'>
-      <sl-icon src="/assets/icons/app-logo.svg" style="font-size: 50px;"></sl-icon>
+      <sl-icon src="assets/icons/app-logo.svg" style="font-size: 50px;"></sl-icon>
       <h1 class='app-name'>Trivial </br> Dispatch</h1>
       </div>
       <p class='intro'>Get a new trivia delivered to you everyday</p>
     </div>
     <sl-button class='setup-btn' variant="default">
       Setup
-      <sl-icon slot="suffix" src="/assets/icons/arrow-right.svg" style="font-size: 15px;"></sl-icon>
+      <sl-icon slot="suffix" src="assets/icons/arrow-right.svg" style="font-size: 15px;"></sl-icon>
     </sl-button>
     `}};xt.styles=[Yr,ri];xt=gi([ue("app-setup")],xt);var mi=Object.freeze(Object.defineProperty({__proto__:null,get AppSetup(){return xt}},Symbol.toStringTag,{value:"Module"}));const _i=[{path:"/Trivia/",animate:!0,children:[{path:"",component:"app-setup"},{path:"about",component:"app-about",action:async()=>{await Jn(()=>Promise.resolve().then(function(){return mi}),void 0)}}]}];var yi=Object.defineProperty,$i=Object.getOwnPropertyDescriptor,wi=(e,t,r,o)=>{for(var n=o>1?void 0:o?$i(t,r):t,i=e.length-1,s;i>=0;i--)(s=e[i])&&(n=(o?s(t,r,n):s(n))||n);return o&&n&&yi(t,r,n),n};let ae=class extends L{constructor(){super()}firstUpdated(){var t;new P((t=this.shadowRoot)==null?void 0:t.querySelector("#routerOutlet")).setRoutes(_i)}render(){return yt`
         <main>
@@ -1031,4 +1031,4 @@ var no=Object.defineProperty,io=Object.defineProperties;var so=Object.getOwnProp
         }
       }
     `];ae=wi([ue("app-index")],ae);
-//# sourceMappingURL=index.35215f25.js.map
+//# sourceMappingURL=index.8b3e47f6.js.map
