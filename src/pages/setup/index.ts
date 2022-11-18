@@ -23,14 +23,14 @@ export class AppSetup extends LitElement {
     return html`
     <div class='container'>
       <div class='logo'>
-      <sl-icon src="/assets/icons/app-logo.svg" style="font-size: 50px;"></sl-icon>
+      <sl-icon src="./assets/icons/app-logo.svg" style="font-size: 50px;"></sl-icon>
       <h1 class='app-name'>Trivial </br> Dispatch</h1>
       </div>
       <p class='intro'>Get a new trivia delivered to you everyday</p>
     </div>
     <sl-button class='setup-btn' variant="default">
       Setup
-      <sl-icon slot="suffix" src="/assets/icons/arrow-right.svg" style="font-size: 15px;"></sl-icon>
+      <sl-icon slot="suffix" src="./assets/icons/arrow-right.svg" style="font-size: 15px;"></sl-icon>
     </sl-button>
     `;
   }
