@@ -28,7 +28,7 @@ export class AppSetup extends LitElement {
       </div>
       <p class='intro'>Get a new trivia delivered to you everyday</p>
     </div>
-    <sl-button class='setup-btn' variant="default">
+    <sl-button class='setup-btn' variant="default" href='/set-frequency'>
       Setup
       <sl-icon slot="suffix" src="./assets/icons/arrow-right.svg" style="font-size: 15px;"></sl-icon>
     </sl-button>

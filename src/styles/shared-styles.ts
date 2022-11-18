@@ -6,7 +6,7 @@ export const secondaryTextColor = css`#9EA0A3`;
 export const primaryColor = css`#9535E1`;
 
 // these styles can be imported from any component
-// for an example of how to use this, check /pages/about-about.ts
+// for an example of how to use this, check /pages/setup/index.ts
 export const styles = css`
   @media(min-width: 1000px) {
     sl-card {
@@ -29,5 +29,21 @@ export const styles = css`
     background-color: ${backgrondColor};
     color: ${primaryTextColor};
     position: relative;
+  }
+
+  h2 {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
   }
 `;
