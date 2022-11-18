@@ -19,7 +19,8 @@
       "isolatedModules": true,
       "types": [
           "vite-plugin-pwa/client"
-      ]
+      ],
+      "baseUrl": "src",
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]

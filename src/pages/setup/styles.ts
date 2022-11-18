@@ -1,7 +1,7 @@
 import { css } from 'lit';
 
 // these styles can be imported from any component
-// for an example of how to use this, check /pages/about-about.ts
+// for an example of how to use this, check /pages/setup.ts
 export const styles = css`
   @media(min-width: 1000px) {
     sl-card {
