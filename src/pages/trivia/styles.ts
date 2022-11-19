@@ -1,5 +1,4 @@
 import { css } from 'lit';
-import { secondaryTextColor, primaryColor } from 'styles/shared-styles';
 
 export const styles = css`
   .container {

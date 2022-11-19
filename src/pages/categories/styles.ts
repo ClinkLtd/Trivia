@@ -1,5 +1,5 @@
 import { css } from 'lit';
-import { secondaryTextColor, primaryColor } from 'styles/shared-styles';
+import { primaryColor } from 'styles/shared-styles';
 
 // these styles can be imported from any component
 // for an example of how to use this, check /pages/setup.ts
