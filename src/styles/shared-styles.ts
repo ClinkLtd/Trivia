@@ -46,4 +46,18 @@ export const styles = css`
     list-style: none;
     padding: 0;
   }
+
+  sl-button{
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+    left: 20px;
+    display: block;
+  }
+
+  .setup-btn::part(base) {
+    background-color: ${primaryColor};
+    color: #fff;
+    border: 0;
+  }
 `;

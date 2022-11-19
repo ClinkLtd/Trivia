@@ -8,10 +8,17 @@ export const routes = [
     children: [
       { path: '', component: 'app-setup' },
       {
-        path: '/set-frequency',
+        path: 'set-frequency',
         component: 'set-frequency',
         action: async () => {
           await import('pages/frequency');
+        },
+      },
+      {
+        path: 'set-categories',
+        component: 'set-categories',
+        action: async () => {
+          await import('pages/categories');
         },
       }
     ],

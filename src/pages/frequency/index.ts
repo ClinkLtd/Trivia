@@ -47,7 +47,7 @@ export class SetFrequency extends LitElement {
       </li>
     </ul>
     </div>
-    <sl-button class='setup-btn' variant="default" href='/set-frequency'>
+    <sl-button class='setup-btn' variant="default" href='/set-categories'>
       Continue
     </sl-button>
     `;
