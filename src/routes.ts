@@ -20,6 +20,13 @@ export const routes = [
         action: async () => {
           await import('pages/categories');
         },
+      },
+      {
+        path: 'trivia',
+        component: 'app-trivia',
+        action: async () => {
+          await import('pages/trivia');
+        },
       }
     ],
   } as any,

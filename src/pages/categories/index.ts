@@ -50,7 +50,7 @@ export class Categories extends LitElement {
         )}
       </div>
     </div>
-    <sl-button class='setup-btn' variant="default" href='/set-frequency'>
+    <sl-button class='setup-btn' variant="default" href='/trivia'>
       Finish
       <sl-icon slot="suffix" src="./assets/icons/arrow-right.svg" style="font-size: 15px;"></sl-icon>
     </sl-button>
